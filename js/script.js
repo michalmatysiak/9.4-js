@@ -9,6 +9,7 @@ function drawTree(h) {
 		for (var j = 1; j < i; j++) {
 			star += '**'
 		}
+		document.write(space, '<br/>', star);
 		console.log(space, star);
 	}
 }
